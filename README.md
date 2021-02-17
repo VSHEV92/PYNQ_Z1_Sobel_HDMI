@@ -31,5 +31,20 @@
   ```
   vivado_hls -f tcl/hls_package.tcl 
   ```
-  
-  
+------
+
+ #### Создание демонстрационного проекта
+
+Необходимо запустить Vivado Tcl Shell, перейти директорию, где расположен README файл, и запустить скрипт с помощью представленного ниже выражения: 
+
+```
+vivado -mode batch –source tcl/sobel_hdmi.tcl -notrace
+```
+
+После выполнения скрипта, наобходимо в Vivado Tcl Shell ввести 
+
+```
+open_project sobel_hdmi/sobel_hdmi.xpr
+start_gui
+```
+
