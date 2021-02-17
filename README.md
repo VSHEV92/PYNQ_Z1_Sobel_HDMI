@@ -7,6 +7,7 @@
 
 - hls_source - исходные файлы IP ядра фильтра Собела
 - digilent_ip - необходимые ядра из библиотеки Digilent
+- constarints - xdc файлы проекта Vivado
 - tcl - скрипты для запуска теста, упаковки ядра и сборки демонстрационного проекта
 
 ------
@@ -25,4 +26,10 @@
   vivado_hls -f tcl/hls_ip_test.tcl 
   ```
 
-- 
+- Упаковка IP ядра фильтра Собела
+
+  ```
+  vivado_hls -f tcl/hls_package.tcl 
+  ```
+  
+  
