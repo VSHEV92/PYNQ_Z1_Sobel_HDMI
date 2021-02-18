@@ -1,6 +1,8 @@
 Sobel_Filter
 sobel_hdmi
+ip_cache
 hls_source/sobel_out.bmp
 .Xil
 *.log
 *.jou
+*.str

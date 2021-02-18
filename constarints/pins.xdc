@@ -1,6 +1,5 @@
 set_property -dict {PACKAGE_PIN H16 IOSTANDARD LVCMOS33} [get_ports clk_125]
 set_property -dict {PACKAGE_PIN D19 IOSTANDARD LVCMOS33} [get_ports reset_button]
-set_property -dict {PACKAGE_PIN M20 IOSTANDARD LVCMOS33} [get_ports bw_en]
 
 #HDMI Rx
 
